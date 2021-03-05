@@ -1,0 +1,116 @@
+.plant_img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+.plant_img img {
+  width: 300px;
+}
+.plant_intro {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #aaa;
+  border-radius: 30px;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+  width: 250px;
+  background-color: #e6ffe6;
+  box-shadow: 2px 3px 2px #ddd;
+}
+.plant_intro h3 {
+  margin: 20px;
+  color: green;
+}
+.plant_intro p {
+  margin: 10px;
+  font-size: 13px;
+  color: #000;
+}
+.plant_intro img {
+  position: relative;
+  max-width: 100px;
+  margin: auto;
+}
+
+.seeds_catogary{
+background-color: #eee;
+margin: 20px;
+border-radius: 10px;
+color: #ffb366;
+padding: 20px;
+}
+.seeds_catogary ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.seeds_catogary ul li{
+padding: 40px;
+border: 1px solid #000;
+border-radius: 25px;
+margin: 10px;
+list-style: none;
+}
+.seeds_catogary ul li img{
+width: 150px;
+}
+
+.shop_btn button{
+background-color: green;
+padding: 10px;
+color: #fff;
+border-radius: 5px;
+outline: none;
+border: none;
+font-size: 16px;
+margin-bottom: 10px;
+}
+.plant_intro_main{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+padding-bottom: 20px;
+}
+
+.plant_intro2{
+background-color: #80c1ff;
+border-radius: 20px;
+width: 350px;
+padding: 20px;
+text-align:left;
+line-height: 18px;
+margin-bottom: 20px;
+}
+.plant_intro2 h3 span{
+color: green;
+}
+.plant_intro2 p{
+font-size: 13px;
+margin-bottom: 10px;
+}
+.plant_intro2 img{
+width: 100px;
+margin: auto;
+}
+.plant_intro2 button{
+background-color: #4d9900;
+padding: 6px 20px;
+border:none;
+font-weight: bold;
+border-radius: 3px;
+margin-left: 40px;
+cursor: pointer;
+}
+.plant_intro3{
+text-align: left;
+width: 350px;
+line-height: 18px;
+}
+.plant_intro3 p{
+font-size: 12px;
+}
